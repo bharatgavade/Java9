@@ -12,7 +12,7 @@ class IFelse{
                 }else{
                         System.out.println(Character.toLowerCase(chr));
                 } */
-                
+          
                 int ch=chr.charAt(0);
                 if(ch>64&&ch<91){
                         ch=ch+32;
