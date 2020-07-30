@@ -6,10 +6,20 @@ class IFelse{
         public static void main(String args[]){
                 
                 String chr="A";
-               /* if(Character.isUpperCase(chr)){
-                        System.out.println(chr.toLowerCase());
-                }else{*/
-                        System.out.println(chr.toLowerCase());
-                //}
+                /*char chr='A';
+                if(Character.isUpperCase(chr)){
+                        System.out.println(Character.toLowerCase(chr));
+                }else{
+                        System.out.println(Character.toLowerCase(chr));
+                } */
+                
+                int ch=chr.charAt(0);
+                if(ch>64&&ch<91){
+                        ch=ch+32;
+                        System.out.print((char) ch);
+                }else if(ch>96&&ch<123){
+                        ch=ch-32;
+                        System.out.print((char) ch);
+                }           
         }
 }
