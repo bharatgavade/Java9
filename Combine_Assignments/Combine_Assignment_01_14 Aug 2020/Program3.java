@@ -4,7 +4,7 @@ Program 3: Write a Program that prints occurrences of a digit from a number, Tak
 */
 class Pro3{
         public static void main(String args[]){
-               long digit = 566697662;
+               long digit = 34566970562L;
                long D = 6 ,count =0; // D is number of check Frequency, count is counting of number Frequency
                
                while(digit > 0){
