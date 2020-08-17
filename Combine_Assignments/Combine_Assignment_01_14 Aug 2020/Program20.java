@@ -15,8 +15,8 @@ class Pro20{
         char cVar = 'S';
         int iVar = 0;
         
-        ans1 = (cVar > iVar) ? bVar : bVar1;
-        System.out.println(ans1);
+		System.out.println((bvar==true) ? ivar : cvar);
+		System.out.println((bvar1==true) ? ivar : cvar);
         
         }
 }
